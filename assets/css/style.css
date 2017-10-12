@@ -1,0 +1,102 @@
+*{
+	margin:0;
+	padding:0;
+}
+/* one */
+.icon {
+    margin-top: 50px;
+    text-align: center;
+}
+.icon ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.icon ul li {
+	display:inline-block;
+	margin-right: -17px;
+	transition: all .5s ease-in-out 0s;
+}
+.icon ul li a{
+    border: 1px solid #060806;
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    display: block;
+    background: #756868;
+    line-height: 50px;
+    color: white;
+    font-size: 19px;
+}
+.icon ul li a i {
+    transform: rotate(-45deg);
+}
+.icon ul li:hover {
+    margin: 0 13px 0 30px;
+} /* end */
+
+/* two */
+.icon2 {
+    margin-top: 80px;
+    text-align: center;
+}
+.icon2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.icon2 ul li {
+	display:inline-block;
+	margin-right: 15px;
+}
+.icon2 ul li:last-child {
+    margin: 0;
+}
+.icon2 ul li a{
+    border: 1px solid #060806;
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    display: block;
+    background: #756868;
+    line-height: 50px;
+    color: white;
+    font-size: 19px;
+}
+.icon2 ul li a i {
+    transform: rotate(-45deg);
+}/* end */
+
+/* three */
+.icon3 {
+    margin-top: 80px;
+    /*! text-align: center; */
+}
+.icon3 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.icon3 ul li {
+	display:inline-block;
+	margin-right: 15px;
+}
+.icon3 ul li:last-child {
+    margin: 0;
+}
+.icon3 ul li a{
+    border: 1px solid #060806;
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    display: block;
+    background: #756868;
+    line-height: 50px;
+    color: white;
+    font-size: 19px;
+	text-align: center;
+}
+.icon3 ul li a i {
+    transform: rotate(-45deg);
+}/* end */
